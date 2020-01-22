@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#inaccel bitstream install ...
+
+exec "$@"
