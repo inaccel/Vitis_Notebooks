@@ -7,3 +7,5 @@ rm inaccel_${version}_amd64.deb
 mkdir --parents ~/.local/bin
 mv tmp/usr/bin/inaccel ~/.local/bin/inaccel
 rm --recursive tmp
+
+wget --output-document ~/vision/data/bbb.mp4 http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_stereo_abl.mp4
