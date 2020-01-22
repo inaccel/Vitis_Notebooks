@@ -1,2 +1,10 @@
 coral-api
 inaccel-vitis
+ipywidgets
+jupyterlab
+matplotlib
+numpy
+opencv-python
+pandas
+Pillow
+tqdm

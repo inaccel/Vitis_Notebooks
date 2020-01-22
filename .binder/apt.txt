@@ -1,0 +1,9 @@
+apt-transport-https
+ca-certificates
+curl
+ffmpeg
+gnupg-agent
+libx264-dev
+software-properties-common
+vim
+x264
