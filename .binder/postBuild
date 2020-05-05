@@ -23,12 +23,14 @@ do
 			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/aws-vu9p-f1/dynamic_5.0/com/xilinx/vitis/quantitativeFinance/blackScholes/1.1/4calculator
 			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/aws-vu9p-f1/dynamic_5.0/com/xilinx/vitis/quantitativeFinance/monteCarlo/1.0/1Calibration_1PreSample_1Pricing1
 			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/aws-vu9p-f1/dynamic_5.0/com/xilinx/vitis/vision/2.0/4stereoBM
+			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/aws-vu9p-f1/dynamic_5.0/com/xilinx/vitis/vision/2.0/4colordetect
 			break
 			;;
 		"xilinx/aws-vu9p-f1-04261818/dynamic_5.0")
 			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/aws-vu9p-f1-04261818/dynamic_5.0/com/xilinx/vitis/quantitativeFinance/blackScholes/1.1/4calculator
 			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/aws-vu9p-f1-04261818/dynamic_5.0/com/xilinx/vitis/quantitativeFinance/monteCarlo/1.0/1Calibration_1PreSample_1Pricing1
 			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/aws-vu9p-f1-04261818/dynamic_5.0/com/xilinx/vitis/vision/2.0/4stereoBM
+			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/aws-vu9p-f1-04261818/dynamic_5.0/com/xilinx/vitis/vision/2.0/4colordetect
 			break
 			;;
 		"xilinx/u200/xdma_201830.2")
@@ -40,10 +42,12 @@ do
 		"xilinx/u250/xdma_201830.2")
 			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/u250/xdma_201830.2/com/xilinx/vitis/quantitativeFinance/monteCarlo/1.0/1Calibration_1PreSample_1Pricing1_1Pricing2
 			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/u250/xdma_201830.2/com/xilinx/vitis/vision/1.0/1stereoBM
+			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/u250/xdma_201830.2/com/xilinx/vitis/vision/2.0/4colordetect
 			break
 			;;
 		"xilinx/u280/xdma_201920.3")
 			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/u280/xdma_201920.3/com/xilinx/vitis/vision/1.0/1stereoBM
+			inaccel bitstream install https://store.inaccel.com/artifactory/bitstreams/xilinx/u280/xdma_201920.3/com/xilinx/vitis/vision/2.0/4colordetect
 			break
 			;;
 		*) echo "invalid platform id \${REPLY}";;
