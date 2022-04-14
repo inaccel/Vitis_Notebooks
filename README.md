@@ -36,7 +36,7 @@ jupyter-repo2docker \
 
 ```sh
 docker run -it \
-	--env CORAL_CLIENT=1 \
+	--volume inaccel:/var/lib/inaccel \
 	--publish 8888:8888 \
 	inaccel/jupyter:Vitis_Notebooks
 ```
